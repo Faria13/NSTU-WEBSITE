@@ -1,0 +1,397 @@
+* {
+   padding:0px;
+   margin:0px;
+}
+
+body {
+   background-color:black;
+}
+
+#wrapper {
+   width:1151px;
+   height:1250px;
+   margin:auto;
+}
+
+#menutop ul {
+    list-style-type:none;
+    position:relative;
+    width:1151px;
+    margin-top:-4px;
+}
+
+#menutop ul li {
+    background-color:#333;
+    color:white;
+    width:178px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    border:1px solid black;
+    font-size:12px;
+    font-family:verdana,Arial,Asap;
+    display:center;     
+}
+
+#menutop li a{
+     text-decoration:none;
+     color:white;
+     text-align:center;
+     display:block;
+}
+
+#menutop ul li:hover {
+    background-color:#555;
+}
+
+#menutop ul ul {
+    display:none;
+}
+
+#menutop ul li:hover > ul {
+    display:inline;
+}
+
+#menutop ul ul li {
+   color:white;
+   font-size:12px;
+   text-align:center;
+   display:block;
+   margin-left:-2px;
+   padding:1px;
+}
+
+#image img {
+   width:885px;
+   height:220px;
+}
+
+#feature {
+   width:266px;
+   height:220px;
+   background-color:#555;
+   float:right;
+   margin-top:-224px;
+}
+
+#columnleft {
+  background-color: #999;
+  float: left;
+  height: 1470px;
+  margin-right: 10px;
+  width: 266px;
+}
+
+#columnright {
+  background-color: #999;
+  float: right;
+  height: 1470px;
+  margin-left: 10px;
+  width: 266px;
+}
+#content {
+   width:690px;
+   height:1470px;
+   background-color:white;
+   margin-left:200px;
+   font-size:15px;
+   font-family:verdana,Arial;
+   margin:auto;
+   text-align:justify;
+}
+
+#footer {
+   width:1151px;
+   height:30px;
+   color:white;
+   text-align:center;
+   font-family:arial,asap;
+   font-size:13px;
+   clear:both;
+   margin-top:30px;
+}
+
+.third {
+	  border-bottom: 1px dotted white;
+	  border-color: white;
+	  border-width: 1px;
+	  color: white;
+	  font-family: verdana;
+	  font-size: 13px;
+	  margin-top: -21px;
+	  padding-bottom: 7px;
+	  margin-left: -10px;
+}
+
+#menubar1 ul li {
+	  border-bottom: 1px dotted white;
+	  border-color: white;
+	  border-width: 1px;
+	  margin: 3px -10px -10px;
+	  padding-bottom: 3px;
+}
+#menubar1 ul li:last-child{border-bottom: 0px dotted white;}
+
+#menubar1 ul li:hover {
+     background-color:gray;
+}
+
+#menubar1 ul {
+   background-color:#444;
+   border:1px double gray;
+   border-radius:5px;
+   width:170px;
+   height:450px;
+   padding:35px;
+   margin-left:10px;
+   margin-top:20px;
+   box-shadow:0px 2px 3px 0px solid black;
+   
+}
+
+#menubar1 li {
+   list-style-type:square;
+   color:WhiteSmoke;
+   
+}
+
+#menubar1 ul li a {
+   color:white;
+   font-family:verdana;
+   font-size:12px;
+   text-align:left;
+}
+
+#menubar1 li a:link {
+   text-decoration:none;
+}
+
+#menubar1 li a:visited {
+   text-decoration:none;
+}
+
+#menubar1 li a:hover {
+   text-decoration:none;
+   background-color:gray;
+}
+
+#menubar1 li a:active {
+   text-decoration:none;
+}
+
+#menubar2 {
+    background-color:#444;
+    width:243px;
+    height:100px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-top:15px;
+}
+
+#menubar2 h4 {
+   color:white;
+   font-family:verdana;
+   font-size:15px;
+   padding:5px;
+   margin:5px;
+}
+
+#menubar2 input[type=text] {
+    width:150px;
+    height:20px;
+    border:1px solid gray;
+    background-color:white;
+    background-position:10px 10px;
+    background-repeat:no-repeat;
+    padding:1px;
+}
+
+#menubar2 form {
+   color:white;
+   font-family:verdana,arial;
+   font-size:13px;
+   padding:5px;
+   margin:5px;
+}
+
+.second {
+     color:white;
+     font-family:verdana;
+     font-size:13px;
+}
+
+#menubar3 h4 {
+   color:white;
+   font-family:verdana;
+   font-size:13px;
+   margin-top:5px;
+   margin-left:5px;
+}
+
+#menubar3 ul {
+   background-color:#444;
+   width:242px;
+   height:125px;
+   border-radius:5px;
+   border:1px double gray;
+   margin-top:18px;
+   margin-left:10px;
+}
+
+#menubar3 ul img {
+   width:225px;
+   height:70px;
+   padding:7px;
+   margin:0px;
+   margin-top:-8px;
+   
+}
+
+#menubar3 ul li {
+   list-style-type:none;
+}
+
+#menubar4 ul {
+   background-color:#333;
+   width:156px;
+   height:420px;
+   padding:40px;
+   margin:100px;
+   border-radius:8px;
+   border:1px double gray;
+   padding-top:10px;
+   float:right;
+   margin-top:20px;
+   margin-right:15px;
+}
+
+.first {
+     color:white;
+     font-family:verdana;
+     font-size:13px;
+}
+
+#menubar4 ul li a {
+     color:#00BFFF;
+     font-family:verdana,arial;
+     font-size:13px;
+}
+
+#menubar4 li {
+   color:white;
+}
+
+#menubar4 li a:link {
+  text-decoration:none;
+}
+#menubar4 li a:visited {
+  text-decoration:none;
+}
+#menubar4 li a:hover {
+  text-decoration:underline;
+}
+#menubar4 li a:active {
+  text-decoration:underline;
+}
+
+#menubar5 ul {
+   background-color:#333;
+   width:156px;
+   height:740px;
+   padding:40px;
+   margin:100px;
+   border-radius:8px;
+   border:1px double gray;
+   padding-top:10px;
+   float:right;
+   margin-top:-85px;
+   margin-right:15px;
+   
+}
+
+#menubar5 ul li a {
+   color:#00BFFF;
+   font-family:verdana,arial;
+   font-size:13px;
+}
+
+#menubar5 li {
+   color:white;
+}
+
+#menubar5 li a:link {
+   text-decoration:none;
+}
+
+#menubar5 li a:visited {
+   text-decoration:none;
+}
+
+#menubar5 li a:hover {
+   text-decoration:underline;
+}
+
+#menubar5 li a:active {
+   text-decoration:underline;
+} 
+
+#menubar6 h2 {
+	  color: #00bfff;
+	  font-family: times new roman;
+	  font-size: 17px;
+}
+#menubar6 ul {
+    background-color:#333;
+    width:187px;
+    height:25px;
+    border:1px double gray;
+    border-radius:5px;
+    text-align:center;
+    padding:25px;
+    margin:10px;
+    float:right;
+    margin-top:-85px;
+    margin-right:15px;
+   
+}
+#menubar6 a:link {
+    text-decoration:none;
+}
+
+#menubar6 a:visited {
+    text-decoration:none;
+}
+
+#menubar6 a:hover {
+    text-decoration:underline;
+    color:#00BFFF;
+}
+
+#menubar6 a:active {
+    text-decoration:underline;
+}
+
+/*Responsive design*/
+
+@media only screen and (min-width:480px) and (max-width:768px){
+	.template{
+		width:760px;
+	}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:360px){
+	.template{
+		width:350px;
+	}
+
+}
+
+@media only screen and (min-width:240px) and (max-width:319px){
+	.template{
+		width:300px;
+	}
+
+}
+    

@@ -1,0 +1,124 @@
+*{
+	padding:0;
+	margin:0;
+	outline:0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height:18px;
+	color:black;
+}
+.template{
+	width:1150px;
+	margin: 0 auto;
+}
+.clear{
+	overflow:hidden;
+}
+.menubar {
+  background: #444 none repeat scroll 0 0;
+  height: 33px;
+  margin-top: -4px;
+}
+.menubar ul {
+  margin: 0;
+  padding-top: 7px;
+}
+.menubar ul li {
+  border-left: 1px solid #161616;
+  border-right: 1px solid #5d5d5d;
+  display: block;
+  float: left;
+  list-style: outside none none;
+}
+.menubar ul li:last-child {
+	border-left: 0px solid #161616;
+    border-right: 0px solid #5d5d5d;
+}
+.menubar ul li a {
+  color: white;
+  font-family: verdana,arial;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 4px;
+  text-decoration: none;
+  
+}.menubar ul li a:hover{
+	background:#777;
+}
+
+.NstuImage img {
+  height: 220px;
+  width: 875px;
+}
+.smallsidebar {
+  background: #555555 none repeat scroll 0 0;
+  float: right;
+  height: 220px;
+  margin-top: -224px;
+  width: 275px;
+}
+.contentsection{
+	
+
+}
+.leftsidebar {
+  background: #999999 none repeat scroll 0 0;
+  float: left;
+  height: 1470px;
+  margin-right: 10px;
+  width: 275px;
+}
+.leftsamesidebar1 {
+  background: #444444 none repeat scroll 0 0;
+  border-radius: 3px;
+  margin: 22px 17px;
+  width: 240px;
+}
+
+.leftsamesidebar1 ul{
+
+}
+.leftsamesidebar1 ul h3 {
+  color: white;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+.leftsamesidebar1 ul li {
+  line-height: 10px;
+}
+.leftsamesidebar1 ul li a {
+  color: white;
+  font-family: verdana;
+  font-size: 13px;
+  line-height: 0;
+  padding-left: 27px;
+  text-decoration: none;
+}
+
+.maincontent {
+  font-family: verdana;
+  font-size: 15px;
+  height: 1470px;
+  text-align: justify;
+  width: 580px;
+}
+.maincontent p{
+	
+
+}
+
+.rightsidebar {
+  background: #999999 none repeat scroll 0 0;
+  float: right;
+  height: 1470px;
+  margin-left: 10px;
+  width: 275px;
+}
+
